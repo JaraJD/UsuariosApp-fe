@@ -1,10 +1,12 @@
 <template>
     <div v-if="loaded" class="information">
         <h1>Información de su cuenta</h1>
-        <h2>Nombre: <span>{{name}}</span></h2>
-        <h2>Correo electrónico: <span>{{email}}</span></h2>
-        <h2>Familiar: <span>{{familiar}}</span></h2>
-        <h2>Medico: <span>{{medico}}</span></h2>
+        <ul>
+            <li>Nombre: <span>{{name}}</span></li>
+            <li>Correo electrónico: <span>{{email}}</span></li>
+            <li>Familiar: <span>{{familiar}}</span></li>
+            <li>Medico: <span>{{medico}}</span></li>
+        </ul>
     </div>
 </template>
 

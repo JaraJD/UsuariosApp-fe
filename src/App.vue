@@ -122,17 +122,16 @@ body{
   color:#E5E7E9 ;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .header h1{
-  width: 20%;
+  width: 40%;
   text-align: center;
 }
 
 .header nav{
   height: 100%;
-  width: 20%;
+  width: 30%;
 
   display: flex;
   justify-content: space-around;
